@@ -6,8 +6,20 @@
   color: white;
 }
 
-.card{
+
+.city-state {
+  text-emphasis-style: bold;
+ }
+
+
+.card {
   width:70%;
-  
-  
+  margin-right: 10px;
+  margin-top: 20px;
+  line-height: auto;
 }
+
+.card-group {
+ color: white;
+}
+
