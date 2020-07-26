@@ -96,11 +96,11 @@ searchBtn.addEventListener('click', function () {
 						'http://openweathermap.org/img/w/' +
 						result.list[i].weather[0].icon +
 						'.png';
-
 				 
           document.getElementById('img' + index).setAttribute('src', iconurl);
+      
+         
           
-
           index++
 				}
 			}
