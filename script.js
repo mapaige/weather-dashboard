@@ -104,14 +104,16 @@ searchBtn.addEventListener('click', function () {
 				 var temp	= 	result.list[i].main.temp			
 					console.log(temp)
 					document.getElementById('temp' + index).
-					innerHTML='temp: ' + temp				//  tempSpan.textContent = result.main.temp;
-						
-				  // temp.appendChild(tempSpan);
+					innerHTML='temp: ' + temp	
+					
+					var humidity = document.getElementById('humidity');
 
-				
-			//  var humiditySpan = document.createElement('span');
-			//  humiditySpan.textContent = result.main.humidity;
-			//  humidity.appendChild(humiditySpan);
+
+					var humidity	=	result.list[i].main.humidity			
+					console.log(humidity)
+					document.getElementById('humidity' + index).
+					innerHTML='humidity: ' + humidity
+
 		 		index++
 					
 				}
