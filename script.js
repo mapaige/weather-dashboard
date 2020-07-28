@@ -99,9 +99,21 @@ searchBtn.addEventListener('click', function () {
 				 
           document.getElementById('img' + index).setAttribute('src', iconurl);
       
-         
-          
-          index++
+					  var tempSpan = document.getElementById('temp');
+
+				 var temp	= 	result.list[i].main.temp			
+					console.log(temp)
+					document.getElementById('temp' + index).
+					innerHTML='temp: ' + temp				//  tempSpan.textContent = result.main.temp;
+						
+				  // temp.appendChild(tempSpan);
+
+				
+			//  var humiditySpan = document.createElement('span');
+			//  humiditySpan.textContent = result.main.humidity;
+			//  humidity.appendChild(humiditySpan);
+		 		index++
+					
 				}
 			}
 		})

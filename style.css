@@ -2,12 +2,25 @@
 .header {
   padding: 10px;
   text-align: center;
-  background: royalblue;
-  color: blanchedalmond;
+  background:blue;
+  color: #e9cc11;	
+   opacity: 0.8; 
 }
+
+  body {
+  background-image: url("https://cdn.ttgtmedia.com/visuals/searchCloudComputing/applications/cloudcomputing_article_001.jpg");
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}  
+
 
 background {
    color :blue;
+
 } 
 
 .city-state {
@@ -20,10 +33,18 @@ background {
   margin-right: 10px;
   margin-top: 20px;
   line-height: auto;
+  opacity: 0.8;
+  
+
+  
+
+
   
 }
 
 .card-group {
  color: yellow;
+ 
 }
+
 
