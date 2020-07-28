@@ -72,7 +72,7 @@ searchBtn.addEventListener('click', function () {
 	fetch(
 		`https://api.openweathermap.org/data/2.5/forecast?q=${
 			citySearch.value
-		}&appid=${'786dd1a7d0584cd0a7a388fa0171ce54'}`,
+		}&units=imperial&appid=${'786dd1a7d0584cd0a7a388fa0171ce54'}`,
 		{
 			method: 'GET',
 		}
