@@ -34,16 +34,19 @@ background {
   margin-top: 20px;
   line-height: auto;
   opacity: 0.8;
- 
-
-  
-
-
   
 }
+  
+
+h3 {
+  color:yellow;
+}
+  
+
 
 .card-group {
  color: yellow;
+ font-weight: 400px;
  
 }
 
