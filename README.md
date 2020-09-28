@@ -9,3 +9,7 @@ This dashboard also has a feature that includes color indications if the conditi
 The dashboard will equip the user with great information for daily conditions or if the user is traveling, it will prepare them on how to dress for the day or pack for vacation. 
 
 <img src="weather-dash.jpg" alt=" weather dashboard"/>
+
+
+## Github Link 
+https://mapaige.github.io/weather-dashboard/
